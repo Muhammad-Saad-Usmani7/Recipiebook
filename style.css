@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0; */
+    background-color: rgb(238, 238, 238,);
+    background-image: url("https://www.spar.co.uk/media/1x1n3yq2/shutterstock_370298699.jpg?anchor=center&mode=crop&heightratio=0.5625&width=1920&rnd=133137651761830000");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #000000;
+    max-width: 1400px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    top: 0;
+}
+
+.navbar .logo h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar .search-bar {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.navbar .search-bar input {
+    width: 100%;
+    height: 35px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navbar .search-button {
+    margin-left: 10px;
+}
+
+.navbar .search-button input {
+    height: 40px;
+    width: 100px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .search-button input:hover {
+    background-color: #2e9685;
+}
+
+
+
+section.sect1{
+    background-color: rgb(218, 206, 206);
+    max-height: 500px;
+    overflow-y: hidden;
+    width: max-content;
+    opacity: 0.1;
+    cursor:default;
+
+    transform: translate(0,-520px);
+}
+div.four{
+    /* background-color: crimson; */
+    width: 600px;
+    min-width: auto;
+
+}
+ol{
+    /* background-color: black; */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* padding: 5px; */
+
+}
+.lii{
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 3px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    /* list-style: none; */
+    padding: 10px;
+}
+.lii:hover{
+    transform: scale(1.05);
+    
+}
+.lsting{
+    /* background-color: black; */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+   
+    
+}
+ /* Style the main scrollbar */
+ .sect2::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  .sect2::-webkit-scrollbar-thumb {
+    background-color:rgb(171, 163, 160,0); /* Color of the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+    min-height: 50px;
+  }
+  
+  /* Style the scrollbar track (the non-draggable part) */
+  .sect2::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0), 0; 
+  } 
+
+
+/* Style the main scrollbar */
+.cs::-webkit-scrollbar {
+    width: 9px; /* Width of the scrollbar */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  .cs::-webkit-scrollbar-thumb {
+    background-color:rgb(171, 163, 160,0); /* Color of the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+    min-height: 50px;
+  }
+  
+  /* Style the scrollbar track (the non-draggable part) */
+  .cs::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0, 0)
+  }
+
+
+.cs{
+    /* background-color: #0f0b0b;*/
+     background-color: rgb(0, 0, 0, 0); 
+    height: 470px;
+    overflow-y: scroll;
+    width: max-content;
+    /* background-position: -100% 0; */
+    /* animation: colormove 4s linear infinite; */
+    cursor:default;
+    visibility: visible;
+    transform: translate(0px,0px);
+    transition: transform 1s ease;
+    color: rgb(0, 0, 0);  
+    /* border: 2px solid;   */
+    
+}
+.cs2{
+    background-color: white;
+    max-height: 470px;
+    overflow-y: scroll;
+    width: max-content;
+
+    cursor:default;
+
+    transform: translate(0,-620px);
+    transition: transform 1s ease;
+    color: rgb(0, 0, 0); 
+    border: 2px solid;
+  
+}
+
+.sect2{
+    /* background-color: #0f0b0b; */
+    background-color: rgb(0, 0, 0, 0);
+    transform: translate(0px,0px);
+    /* column-gap: -100px; */
+    max-height: 470px;
+    min-width: 650px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;  
+    visibility: hidden;
+    color: rgb(0, 0, 0); 
+    /* border: 2px solid; */
+}
+
+div#o-4{
+    /* background-color: darkorange; */
+    height: auto;
+    width: max-content;
+}
+div#o-5{
+    /* background-color: rgb(51, 255, 0); */
+    height: auto;
+    width: max-content;
+}
+ul{
+    height: auto;
+    width: max-content;
+    
+}
+div#o-6{
+    /* background-color: rgb(255, 0, 230); */
+    height: auto;
+    width: 650px;
+}
+
+
+div.container{
+    /* background-color: darkred; */
+    height: auto;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    overflow-y: hidden;
+    column-gap: 0px;
+    flex-wrap: wrap;
+}
+
+div.gif{
+    /* background-color: chartreuse; */
+    width: 40px;
+    height: auto;
+}
+div.animesss{
+    width: auto;
+    height: auto;
+    text-align: center;
+    transform: translate(0,0);
+    animation: animess linear 2s infinite alternate;
+    display: none;
+}
+@keyframes animess{
+    0%{
+        transform: translate(0,400px);
+    }
+    
+}
+
+
+div.animessss{
+    width: auto;
+    height: auto;
+    text-align: center;
+    transform: translate(0,0);
+    animation: animess linear 2s infinite alternate;
+    display: block;
+}
+@keyframes animess{
+    0%{
+        transform: translate(0,400px);
+    }
+    
+}
+img{
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Adjust navbar for small screens */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar .logo h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar .search-bar input {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .navbar .search-button input {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+/* Additional Button and Container Styles */
+button {
+    position: absolute;
+    margin-top: 0px;
+    padding: 6px 20px;
+    background-color: #0a0a0a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2fb392;
+}
+  
